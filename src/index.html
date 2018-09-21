@@ -97,26 +97,36 @@
 
         setImagesRandom();
 
-        $("#img1").click(function () {
+        var img1 = document.getElementById('img1');
+        img1.addEventListener('click', function () {
             imageClick(1);
             checkSet();
-        })
-        $("#img2").click(function () {
+        });
+
+        var img2 = document.getElementById('img2');
+        img2.addEventListener('click', function () {
             imageClick(2);
             checkSet();
-        })
-        $("#img3").click(function () {
+        });
+
+
+        var img3 = document.getElementById('img3');
+        img3.addEventListener('click', function () {
             imageClick(3);
             checkSet();
-        })
-        $("#img4").click(function () {
+        });
+
+        var img4 = document.getElementById('img4');
+        img4.addEventListener('click', function () {
             imageClick(4);
             checkSet();
-        })
-        $("#img5").click(function () {
+        });
+
+        var img5 = document.getElementById('img5');
+        img5.addEventListener('click', function () {
             imageClick(5);
             checkSet();
-        })
+        });
 
     }
 
